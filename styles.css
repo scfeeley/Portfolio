@@ -1,0 +1,94 @@
+:root{
+    --radial-blue: radial-gradient(lightblue,white);
+  }
+  *{
+    margin:0;
+    padding:0;
+    color:gray;
+  }
+  body {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  #navbar{
+    background-color:white;
+    height:40px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:center;
+    position:sticky;
+    top:0px;
+  }
+  
+  a{
+    text-decoration:none;
+    color:gray;
+  }
+  #welcome-section{
+    background:var(--radial-blue);
+    color:gray;
+    height:100vh;
+    width:100%;
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+  }
+  #name{
+    font-family:'Brush Script MT',cursive;
+    font-size:400%;
+  }
+  #stethoscope, #computer{
+    height:100px;
+    width:100px;
+    position:relative;
+  }
+  #computer{
+    top:10%;
+  }
+  #stethoscope{
+   top:10%;
+  }
+  .text-box{
+    display:flex;
+    flex-direction:column;
+    row-gap:10px;
+  }
+  p{
+    padding:10px;
+  }
+  .section-title:hover{
+    background:var(--radial-blue);
+    border-radius:10%;
+    color:black;
+  }
+  ul{
+    list-style:none;
+  }
+  .grid{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    gap:20px;
+    justify-content:center;
+    align-items:center;
+  }
+  #projects{
+      background:var(--radial-blue);
+  }
+  .project-title:hover{
+      color:black;
+  }
+  .contact-icons{
+    display:flex;
+    flex-direction:horizontal;
+    justify-content:space-evenly;
+    padding:20px;
+    align-items:center;
+  }
+  @media (max-width:700px){
+    .grid{
+      grid-template-columns:auto;
+      }
+    }
+  }
