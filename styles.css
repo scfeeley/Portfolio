@@ -58,11 +58,7 @@
   p{
     padding:10px;
   }
-  .section-title:hover{
-    background:var(--radial-blue);
-    border-radius:10%;
-    color:black;
-  }
+
   ul{
     list-style:none;
   }
@@ -85,6 +81,9 @@
     justify-content:space-evenly;
     padding:20px;
     align-items:center;
+  }
+  #about-me{
+    margin: 10px 100px 10px 100px;
   }
   @media (max-width:700px){
     .grid{
