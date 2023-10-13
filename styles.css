@@ -90,4 +90,7 @@
       grid-template-columns:auto;
       }
     }
-  }
+h4{
+  font-weight: normal;
+  margin-bottom: 10px;
+}
